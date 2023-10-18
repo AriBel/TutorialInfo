@@ -19,6 +19,7 @@ export class TutorialsListComponent {
 
   title: string = '';
 
+  pageTitle: string = "Tutorial listing"
 
 
   constructor(private tutorialService: TutorialService) {
